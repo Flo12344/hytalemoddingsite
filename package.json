@@ -5,7 +5,7 @@
   "scripts": {
     "build": "bun run git-info.ts && next build",
     "dev": "bun run git-info.ts && next dev",
-    "start": "bun run git-info.ts && next start",
+    "start": "next start",
     "types:check": "fumadocs-mdx && tsc --noEmit",
     "postinstall": "fumadocs-mdx",
     "lint": "eslint"
