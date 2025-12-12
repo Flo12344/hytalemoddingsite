@@ -41,7 +41,10 @@ export function DiscordButton() {
             <p className="text-muted-foreground flex items-center gap-1 text-sm">
               <span className="flex gap-1 text-green-400">
                 <CircleUserIcon className="my-auto" />
-                {stats.total_members} {messages.misc.members}
+                {messages.home.memberCount.replace(
+                  "{count}",
+                  stats.total_members.toString(),
+                )}
               </span>
             </p>
           ) : (
