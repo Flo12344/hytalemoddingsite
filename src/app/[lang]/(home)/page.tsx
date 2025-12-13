@@ -50,7 +50,7 @@ export default function HomePage() {
       title: "[WIP] Hylamity: Wulfrum Prosthesis",
       author: "by alder_",
       image: WulfrumProsthesis,
-      link: "https://discord.com/users/282986835293241345",
+      link: "https://discord.gg/f2fMKYnRqR",
     },
     {
       title: "[WIP] Soundscape: Melodium Chunk",
@@ -68,7 +68,7 @@ export default function HomePage() {
       title: "[WIP] Hylamity: Wulfrum Armor",
       author: "by alder_",
       image: WulfrumArmor,
-      link: "https://discord.com/users/282986835293241345",
+      link: "https://discord.gg/f2fMKYnRqR",
     },
   ];
 
