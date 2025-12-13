@@ -5,40 +5,18 @@ import Script from "next/script";
 
 const { provider } = defineI18nUI(i18n, {
   translations: {
-    en: {
-      displayName: "English",
-    },
-    "es-ES": {
-      displayName: "Español",
-    },
-    "af-ZA": {
-      displayName: "Afrikaans",
-    },
-    "de-DE": {
-      displayName: "Deutsch",
-    },
-    "id-ID": {
-      displayName: "Indonesia",
-    },
-    "fr-FR": {
-      displayName: "Français",
-    },
-    "hi-IN": {
-      displayName: "हिन्दी",
-      search: "खोजें",
-    },
-    "pt-BR": {
-      displayName: "Português (Brasil)",
-    },
-    "ru-RU": {
-      displayName: "Русский",
-    },
-    "tr-TR": {
-      displayName: "Türkçe",
-    },
-    "ar-SA": {
-      displayName: "العربية",
-    },
+    en: { displayName: "English" },
+    "es-ES": { displayName: "Español" },
+    "af-ZA": { displayName: "Afrikaans" },
+    "de-DE": { displayName: "Deutsch" },
+    "id-ID": { displayName: "Indonesia" },
+    "fr-FR": { displayName: "Français" },
+    "hi-IN": { displayName: "हिन्दी", search: "खोजें" },
+    "pt-BR": { displayName: "Português (Brasil)" },
+    "ru-RU": { displayName: "Русский" },
+    "tr-TR": { displayName: "Türkçe" },
+    "ar-SA": { displayName: "العربية" },
+    "lv-LV": { displayName: "Latviski" },
   },
 });
 
