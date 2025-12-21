@@ -6,6 +6,7 @@ import { baseOptions } from "@/lib/layout.shared";
 import { DocsBanner, DocsFooter } from "./docs-banner";
 import { ViewTransition } from "react";
 import { localizePageTree } from "@/lib/tree-localization";
+import { localizeHref } from "../../../lib/locale";
 
 export default async function Layout({
   params,
@@ -24,6 +25,10 @@ export default async function Layout({
           sidebar={{
             banner: <DocsBanner />,
             footer: <DocsFooter />,
+          }}
+          nav={{
+            title: "Hytale Modding",
+            url: localizeHref("/", lang),
           }}
         >
           {children}
