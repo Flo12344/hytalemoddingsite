@@ -6,7 +6,7 @@ import { baseOptions } from "@/lib/layout.shared";
 import { DocsBanner, DocsFooter } from "./docs-banner";
 import { ViewTransition } from "react";
 import { localizePageTree } from "@/lib/tree-localization";
-import { localizeHref } from "../../../lib/locale";
+import { localizeHref, getMessages } from "@/lib/locale";
 
 export default async function Layout({
   params,
@@ -14,7 +14,7 @@ export default async function Layout({
 }: LayoutProps<"/[lang]/docs">) {
   const { lang } = await params;
   const tree = localizePageTree(source.pageTree[lang], lang);
-  const messages = await import("messages/" + lang + ".json") // this is a hack i used to get it working since this is not a client scope
+  const messages = getMessages(lang);
 
   return (
     <ViewTransition update="none">
