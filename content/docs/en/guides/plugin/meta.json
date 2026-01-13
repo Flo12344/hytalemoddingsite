@@ -4,7 +4,8 @@
         "setting-up-env.mdx",
         "creating-commands.mdx",
         "creating-events.mdx",
-        "chat-formatting.mdx"
+        "chat-formatting.mdx",
+        "..."
     ],
     "icon": "Terminal"
 }
