@@ -39,6 +39,5 @@ perms.removeUserPermission(playerUUID, permissions);
 To check if a player has a specific permission node, you can use the `hasPermission` method.
 
 ```java
-PermissionsModule perms = PermissionsModule.get();
-boolean hasPermission = perms.hasPermission(playerUUID, "permission.node");
+boolean hasPermission = PermissionsModule.hasPermission(playerUUID, "permission.node");
 ```
